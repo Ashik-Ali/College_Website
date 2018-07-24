@@ -1,0 +1,249 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+/* header css */
+
+.header-area {
+    background-image: url(images/back.jpg);
+    height: 217px;
+    width: 100%;
+}
+
+.logo1 img {
+    width: 110px;
+    height: 110px;
+    margin: 25px 5px;
+}
+
+.logo2 img {
+    width: 110px;
+    height: 110px;
+    margin: 25px -42px;
+}
+
+.heading h1 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 53px;
+    margin: 25px 0px;
+}
+
+.heading h3 {
+    text-align: center;
+    font-weight: bold;
+    font-size: 40px;
+    margin: -28px 0px;
+    color: #fff;
+    font-family: 'Lobster', cursive;
+}
+
+.heading marquee {
+    margin: 33px 0px;
+    font-size: 20px;
+    color: #fff;
+}
+
+.mainmenu {
+    margin-top: -33px;
+    border-top: 2px solid #fff;
+    width: 1050px;
+    margin-left: -49px;
+    z-index: 99999;
+    position: absolute;
+    padding: 3px 0px;
+}
+
+.mainmenu ul {
+    list-style: none;
+}
+
+.mainmenu ul li {
+    background-image: url(images/menu.jpg);
+    width: 150px;
+    text-align: center;
+    height: 50px;
+    line-height: 50px;
+    float: left;
+    position: relative;
+    border-left: 1px solid #5adb5a;
+    border-right: 1px solid #118b11;
+}
+
+.mainmenu ul li:first-child {
+    border-left: 0px solid;
+}
+
+.mainmenu ul li:last-child {
+    border-right: 0px solid;
+}
+
+.mainmenu ul li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    font-size: 20px;
+}
+
+.mainmenu ul li a:hover {
+    background-image: url(images/hover.jpg);
+}
+
+.mainmenu ul ul {
+    position: absolute;
+    display: none;
+}
+
+.mainmenu ul li:hover > ul {
+    display: block;
+}
+
+.mainmenu ul ul ul {
+    top: 0px;
+    margin-left: 150px;
+}
+
+/* footer css */
+
+.forter-area {
+    background: #656264;
+    padding: 5px;
+}
+
+.fot1 h2 {
+    margin: 15px 55px;
+    color: #fff;
+}
+
+.fot1 ol li {
+    color: #fff;
+    font-size: 16px;
+}
+
+.fot1 ol li a {
+    text-decoration: none;
+    color: #fff;
+}
+
+.fot1 ol li a:hover {
+    color: #04c8f5;
+}
+
+.fot2 h2 {
+    margin: 16px 36px;
+    color: #fff;
+}
+
+.fot2 ol li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.fot2 ol li a:hover {
+    color: #09d9fb;
+}
+
+.fot2 ol li {
+    color: #fff;
+}
+
+.fot3 h2 {
+    margin: 17px 45px;
+    color: #fff;
+}
+
+.fot3 ol li {
+    color: #fff;
+}
+
+.fot3 ol li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 16px;
+}
+
+.fot3 ol li a:hover {
+    color: #00dcff;
+}
+
+.fot4 img {
+    margin: 15px 95px;
+}
+
+/* Header CSS */
+
+/* slide css */
+
+li.bjqs-prev {}
+
+li.bjqs-prev a {
+    display: none;
+}
+
+li.bjqs-next {}
+
+li.bjqs-next a {
+    display: none;
+}
+
+ol.bjqs-markers.h-centered > li {
+    display: none;
+}
+
+/* Teacher CSS */
+
+.dept-head a {
+    color: #ffffff;
+    text-decoration: none;
+}
+
+.dept-head a:hover {
+    color: #d8ff00;
+}
+
+.instructor a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.instructor a:hover {
+    color: #d8ff00;
+}
+
+.junior-instructor1 a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.junior-instructor1 a:hover {
+    color: #d8ff00;
+}
+
+.junior-instructor2 a {
+    color: #ffffff;
+    text-decoration: none;
+    text-align: center;
+}
+
+.junior-instructor2 a:hover {
+    color: #d8ff00;
+}
+
+.details a {
+    text-decoration: none;
+    text-align: center;
+    color: #ffffff;
+}
+
+.details a:hover {
+    color: #d8ff00;
+}
+
+.shift a {
+    text-decoration: none;
+}
+
