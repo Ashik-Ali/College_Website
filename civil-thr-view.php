@@ -5,7 +5,7 @@
     <div class="image-area" style="background:#d1d0d0;">
         <div class="container">
             <div class="row"><br>
-                <div class="col-md-8 col-md-offset-2" style="background:#fffcfc;border-radius:30px;">
+                <div class="col-md-10 col-md-offset-1" style="background:#fffcfc;border-radius:30px;">
                    <br>
                     <div class="ent-heading" style="">
                         <h1 style="background: #347d2f;padding: 10px;text-align: center;margin: -5px 20px;color: #ffffff;font-weight: bold;border-radius: 20px;">Civil Technology Teachers Information</h1>

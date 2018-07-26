@@ -155,6 +155,7 @@
                             
                         </ul>
                     </li>
+                    
                     <li class="treeview">
                         <a href="#"><i class="fa fa-files-o"></i> Title
                 <span class="pull-right-container">
@@ -167,6 +168,21 @@
                             
                         </ul>
                     </li>
+                    
+                    
+                    <li class="treeview">
+                        <a href="#"><i class="fa fa-files-o"></i> Misiion
+                <span class="pull-right-container">
+                  <span class="label label-primary pull-right"></span>
+                </span>
+              </a>
+                        <ul class="treeview-menu">
+                            <li><a href="mission-entry.php"><i class="fa fa-circle-o"></i>Mission Entry</a></li>
+                            <li><a href="mission-view.php"><i class="fa fa-circle-o"></i>Mission View</a></li>
+                            
+                        </ul>
+                    </li>
+                    
                     <li><a href="singup.php"><i class="fa fa-circle-o"></i> Register Form</a></li>
                     <li><a href="feedback.php"><i class="fa fa-circle-o"></i> FeedBack</a></li>
                 </ul>

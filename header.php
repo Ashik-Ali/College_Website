@@ -1,3 +1,4 @@
+<?php include("dbconnect.php"); ?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -22,7 +23,15 @@
                     <div class="heading">
                         <h1>ঝিনাইদহ পলিটেকনিক ইনস্টিটিউট</h1>
                         <h3>Jhenaidah Polytechnic Institute</h3>
-                        <marquee scrollamount="7px">এসো প্রযুক্তির জন্য, বেরিয়ে যাও প্রবৃদ্ধির জন্য।</marquee>
+                        <?php
+                            $select = "SELECT * FROM title ORDER BY id DESC";
+                            $run = $connect->query($select);
+                            if($rows = $run->fetch_assoc()){
+                                ?>
+                                <marquee scrollamount="4px"><?php echo $rows["title"] ?></marquee>
+                                <?php
+                            }
+                        ?>
                     </div>
                     <div class="mainmenu">
                         <ul>
@@ -30,7 +39,7 @@
                             <li><a href="#">About<span class="caret"></span></a>
                                 <ul>
                                     <li><a href="clg-about.php">About Us</a></li>
-                                    <li><a href="">Mission, Vission & Slogan</a></li>
+                                    <li><a href="mission.php">Mission & Vission</a></li>
                                 </ul>
                             </li>
                             <li><a href="#">Academics<span class="caret"></span></a>
